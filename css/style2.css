@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(../agenda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h3,
+.status-color {
+    color: #f0f0f0;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.note-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.note-card:hover {
+    transform: scale(1.05);
+}
+
+.note-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.note-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.note-card .note-date {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note-card .archive-btn,
+.note-card .edit-btn,
+.note-card .delete-btn {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.note-card .archive-btn:hover,
+.note-card .edit-btn:hover,
+.note-card .delete-btn:hover {
+    background-color: #e76f51;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor de filtros */
+.filters {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.filters select,
+.filters input,
+.filters button {
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.filters button {
+    background-color: #006489;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filters button:hover {
+    background-color: #014761;
+}
+
+/* Tabla */
+#tabla {
+    width: 80%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tabla th,
+#tabla td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#tabla th {
+    background-color: #006489;
+    color: white;
+    font-size: 18px;
+}
+
+#tabla td {
+    font-size: 16px;
+}
+
+#tabla td button {
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.button--primary {
+    background-color: #28a745;
+    color: white;
+}
+
+.button--primary:hover {
+    background-color: #218838;
+}
+
+.button--danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button--danger:hover {
+    background-color: #c82333;
+}
+
+/* Estilo del formulario */
+/* Contenedor principal del formulario */
+#formulario {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+#formulario h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: #006489;
+    color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Centrado general */
+.formbold-main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del formulario */
+.formbold-form-wrapper {
+    width: 100%;
+}
+
+/* Inputs */
+.formbold-input-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    /* Espacio entre los inputs */
+    margin-bottom: 15px;
+}
+
+.formbold-form-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.formbold-form-input,
+select {
+    width: 100%;
+    max-width: 100%;
+    /* Asegura que no sobrepasen el contenedor */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Botones */
+.formbold-btn {
+    width: auto;
+    /* Ajuste automático al contenido */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+    /* Espacio entre botones */
+    transition: background 0.3s ease;
+}
+
+.formbold-btn:last-child {
+    margin-right: 0;
+    /* Elimina margen derecho del último botón */
+}
+
+.formbold-btn#btnModificar {
+    background-color: #006489;
+    color: white;
+}
+
+.formbold-btn#btnModificar:hover {
+    background-color: #006489;
+}
+
+.formbold-btn#btnCancel {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.formbold-btn#btnCancel:hover {
+    background-color: #c0392b;
+}
+
+textarea.formbold-form-input {
+    width: 500px;
+    resize: vertical;
+    /* Permite redimensionar solo en vertical */
+    font-family: inherit;
+    /* Mantiene la misma fuente que el resto del formulario */
+    height: auto;
+    /* Ajuste automático de altura */
+    line-height: 1.5;
+    /* Espaciado entre líneas para mejor legibilidad */
+}
+
+/* Estilos para el botón "Back to Home" */
+#btnBack {
+    display: inline-block;
+    background-color: #006489;
+    /* Verde llamativo */
+    color: white;
+    text-decoration: none;
+    /* Quitar subrayado del enlace */
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#btnBack:hover {
+    background-color: #004761;
+    /* Verde más oscuro al pasar el cursor */
+}
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    #formulario {
+        width: 90%;
+    }
+
+    .formbold-input-flex {
+        flex-direction: column;
+        /* Cambia a vertical en pantallas pequeñas */
+        gap: 10px;
+    }
+
+    .formbold-btn {
+        width: 100%;
+        /* Botones ocupan todo el ancho */
+        margin-bottom: 10px;
+    }
+
+    .formbold-btn:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Table</title>
+    <link rel="stylesheet" href="/css/style2.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Filter -->
+    <div class="filters">
+        <h3>Filter Notes</h3>
+        <label for="filter-status" class="status-color">Status:</label>
+
+        <select id="filter-status">
+            <option value="all">All</option>
+            <option value="active">Active</option>
+            <option value="archived">Archived</option>
+        </select>
+
+        <!-- <label for="filter-date">Date:</label>
+        <input type="date" id="filter-date" /> -->
+
+        <button id="filter-btn">Filter</button>
+    </div>
+
+    <!-- Table -->
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th colspan="6" class="title-1">Notes</th>
+            </tr>
+            <tr>
+                <th>#</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Status</th>
+                <th>Created At</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Notes will be dynamically filled here -->
+        </tbody>
+    </table>
+
+    <!-- Form to modify grades -->
+    <div id="formulario" style="display: none;">
+        <h1>Modify Note</h1>
+        <div class="formbold-main-wrapper">
+            <div class="formbold-form-wrapper">
+                <form id="edit-form">
+                    <div class="formbold-input-flex">
+                        <div>
+                            <label for="titulo" class="formbold-form-label">Title</label>
+                            <input type="text" name="titulo" id="titulo" class="formbold-form-input" />
+
+                        </div>
+                        <div>
+                            <label for="content" class="formbold-form-label">Content</label>
+                            <textarea name="content" id="content" class="formbold-form-input" rows="5"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="formbold-input-flex">
+                        <div>
+                            <label for="status" class="formbold-form-label">Status</label>
+                            <select name="status" id="status" class="formbold-form-input">
+                                <option value="active">Active</option>
+                                <option value="archived">Archived</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <button type="button" class="formbold-btn" id="btnModificar">Modify</button>
+                    <button type="button" class="formbold-btn" id="btnCancel">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button to return to the main page -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" class="formbold-btn" id="btnBack">Back to Home</a>
+    </div>
+
+
+
+    <script src="/js/script2.js"></script>
+</body>
+
+</html>
