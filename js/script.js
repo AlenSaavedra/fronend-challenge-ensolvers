@@ -1,5 +1,5 @@
 // URL base de la API (ajusta según tu configuración)
-const API_BASE_URL = 'http://localhost:8080/api/notes'; // Cambia con tu URL de backend
+const API_BASE_URL = 'https://backend-notes-app-ufb3.onrender.com'; // Cambia con tu URL de backend
 
 // Elementos del DOM
 const createButton = document.getElementById('create-note-btn');
