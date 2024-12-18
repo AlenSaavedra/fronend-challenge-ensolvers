@@ -75,6 +75,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Alen Saavedra  
 [GitHub](https://github.com/AlenSaavedra) | [LinkedIn](https://www.linkedin.com/in/alensaavedra/)
-```
 
-This is the complete English version of your `README.md`. Let me know if you need further adjustments!
