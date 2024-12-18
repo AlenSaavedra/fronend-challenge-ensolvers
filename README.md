@@ -1,77 +1,80 @@
-# Frontend - Aplicación Web de Notas
+# Frontend - Notes Web Application
 
-Este es el frontend de la aplicación web para tomar notas, etiquetarlas y filtrarlas. La aplicación está estructurada como una SPA (Single Page Application), utilizando solo **JavaScript**, **HTML** y **CSS** para la interacción del usuario.
+This is the frontend of the web application for taking notes, tagging them, and filtering them. The application is structured as a SPA (Single Page Application), using only **JavaScript**, **HTML**, and **CSS** for user interaction.
 
-## Backend -> [Repositorio](https://github.com/AlenSaavedra/backend-notes-app)
+## Backend -> [Repository](https://github.com/AlenSaavedra/backend-notes-app)
 
-## Descripción
+## Description
 
-La aplicación permite a los usuarios crear, editar, eliminar y filtrar notas. Cada nota puede tener varias etiquetas que facilitan la organización y el filtrado. El backend de esta aplicación está separado y se encarga de gestionar las notas y etiquetas, mientras que este frontend se encarga de la interacción con el usuario.
+The application allows users to create, edit, delete, and filter notes. Each note can have multiple tags to facilitate organization and filtering. The backend of this application is separate and handles the management of notes and tags, while this frontend focuses on user interaction.
 
-## Características
+## Features
 
-- Crear, editar y eliminar notas.
-- Etiquetar notas para organización.
-- Filtrar notas por etiquetas.
-- Interfaz de usuario sencilla y funcional.
-- Comunicación con el backend a través de una API REST.
+- Create, edit, and delete notes.
+- Tag notes for better organization.
+- Filter notes by tags.
+- Simple and functional user interface.
+- Communication with the backend through a REST API.
 
-## Tecnologías utilizadas
+## Technologies Used
 
-- **JavaScript**: Lógica de la aplicación y manejo de eventos.
-- **HTML**: Estructura y contenido de la página web.
-- **CSS**: Estilos para la interfaz de usuario y diseño responsive.
-- **Fetch API**: Para interactuar con el backend a través de HTTP.
+- **JavaScript**: Application logic and event handling.
+- **HTML**: Structure and content of the webpage.
+- **CSS**: Styles for the user interface and responsive design.
+- **Fetch API**: To interact with the backend via HTTP.
 
-## Requisitos
+## Requirements
 
-Este proyecto no tiene dependencias externas, solo necesitas un navegador web moderno para ejecutarlo.
+This project has no external dependencies, you only need a modern web browser to run it.
 
-## Instalación
+## Installation
 
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/AlenSaavedra/tu-repositorio-de-notas.git
-   ```
-
-2. Navega a la carpeta del proyecto:
+1. Clone the repository:
 
    ```bash
-   cd tu-repositorio-de-notas
+   git clone https://github.com/AlenSaavedra/your-notes-repository.git
    ```
 
-3. No es necesario instalar dependencias ya que el proyecto utiliza solo tecnologías web estándar.
+2. Navigate to the project folder:
 
-## Uso
+   ```bash
+   cd your-notes-repository
+   ```
 
-1. Abre el archivo `index.html` en tu navegador.
-2. La aplicación se ejecutará automáticamente en tu navegador, y podrás empezar a crear y gestionar tus notas.
+3. No dependencies need to be installed as the project uses only standard web technologies.
 
-## Estructura del Proyecto
+## Usage
+
+1. Open the `index.html` file in your browser.
+2. The application will run automatically in your browser, and you can start creating and managing your notes.
+
+## Project Structure
 
 ```
 /src
-  /index.html        # Página principal de la aplicación
-  /style.css         # Estilos globales y específicos
-  /app.js            # Lógica JavaScript para manejar notas y etiquetas
+  /index.html        # Main page of the application
+  /style.css         # Global and specific styles
+  /app.js            # JavaScript logic for handling notes and tags
 ```
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
+If you want to contribute to this project, please follow these steps:
 
-1. Haz un fork del repositorio.
-2. Crea una rama para tu feature (`git checkout -b feature/mi-feature`).
-3. Haz tus cambios y haz commit de ellos (`git commit -am 'Añadir nueva feature'`).
-4. Sube tus cambios a tu fork (`git push origin feature/mi-feature`).
-5. Abre un Pull Request en el repositorio original.
+1. Fork the repository.
+2. Create a branch for your feature (`git checkout -b feature/my-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push your changes to your fork (`git push origin feature/my-feature`).
+5. Open a Pull Request to the original repository.
 
-## Licencia
+## License
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Autor
+## Author
 
 Alen Saavedra  
 [GitHub](https://github.com/AlenSaavedra) | [LinkedIn](https://www.linkedin.com/in/alensaavedra/)
+```
+
+This is the complete English version of your `README.md`. Let me know if you need further adjustments!
