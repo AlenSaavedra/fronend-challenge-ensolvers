@@ -2,7 +2,7 @@
 
 Este es el frontend de la aplicación web para tomar notas, etiquetarlas y filtrarlas. La aplicación está estructurada como una SPA (Single Page Application), utilizando solo **JavaScript**, **HTML** y **CSS** para la interacción del usuario.
 
-## Backend -> https://github.com/AlenSaavedra/backend-notes-app
+## Backend -> [Repositorio](https://github.com/AlenSaavedra/backend-notes-app)
 
 ## Descripción
 
