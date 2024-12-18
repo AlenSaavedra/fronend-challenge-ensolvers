@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://backend-notes-app-ufb3.onrender.com'; // Cambia esta URL a la de tu backend
+const API_BASE_URL = 'https://backend-notes-app-ufb3.onrender.com/api/notes'; // Cambia esta URL a la de tu backend
 
 // Elementos del DOM
 const filterStatus = document.getElementById('filter-status');
